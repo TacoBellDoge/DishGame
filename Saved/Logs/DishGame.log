@@ -1,4 +1,4 @@
-﻿Log file open, 03/30/20 14:24:53
+﻿Log file open, 03/30/20 14:47:00
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: DishGame
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.311357
+LogStats: Stats thread started at 0.464072
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -164,466 +164,447 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.03.30-12.24.55:014][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.03.30-12.24.55:014][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.03.30-12.24.55:014][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Engine.ini]
-[2020.03.30-12.24.55:014][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.03.30-12.24.55:014][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Engine.ini]
-[2020.03.30-12.24.55:014][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Engine.ini]
-[2020.03.30-12.24.55:014][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.03.30-12.24.55:014][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.03.30-12.24.55:014][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.03.30-12.24.55:014][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.03.30-12.24.55:014][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.03.30-12.24.55:014][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.03.30-12.24.55:014][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.03.30-12.24.55:014][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.03.30-12.24.55:014][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.03.30-12.24.55:014][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.03.30-12.24.55:015][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.03.30-12.24.55:015][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.03.30-12.24.55:015][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.03.30-12.24.55:015][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.03.30-12.24.55:015][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Engine.ini]
-[2020.03.30-12.24.55:015][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.03.30-12.24.55:015][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.03.30-12.24.55:015][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.03.30-12.24.55:015][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.03.30-12.24.55:015][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.03.30-12.24.55:015][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.03.30-12.24.55:015][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.03.30-12.24.55:016][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.03.30-12.24.55:016][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.03.30-12.24.55:016][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.03.30-12.24.55:016][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.03.30-12.24.55:016][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.03.30-12.24.55:016][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.03.30-12.24.55:016][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Engine.ini]
-[2020.03.30-12.24.55:016][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Engine.ini]
-[2020.03.30-12.24.55:039][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:039][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.30-12.24.55:039][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.30-12.24.55:039][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:039][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.30-12.24.55:039][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:039][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.30-12.24.55:039][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.30-12.24.55:039][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.03.30-12.24.55:039][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.03.30-12.24.55:039][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.30-12.24.55:039][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.03.30-12.24.55:039][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.30-12.24.55:040][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.30-12.24.55:041][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.30-12.24.55:042][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.03.30-12.24.55:043][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.03.30-12.24.55:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.03.30-12.24.55:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.03.30-12.24.55:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.03.30-12.24.55:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.03.30-12.24.55:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.03.30-12.24.55:044][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.03.30-12.24.55:044][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:044][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.30-12.24.55:044][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.30-12.24.55:044][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:044][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.03.30-12.24.55:044][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.03.30-12.24.55:044][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.03.30-12.24.55:045][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.30-12.24.55:045][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.03.30-12.24.55:058][  0]LogHAL: Display: Platform has ~ 16 GB [17059897344 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.03.30-12.24.55:058][  0]LogInit: Going up to parent DeviceProfile []
-[2020.03.30-12.24.55:058][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:059][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.30-12.24.55:059][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.30-12.24.55:059][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:059][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.30-12.24.55:059][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:059][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.30-12.24.55:059][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.30-12.24.55:059][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.03.30-12.24.55:059][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.03.30-12.24.55:059][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.30-12.24.55:059][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.03.30-12.24.55:059][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.03.30-12.24.55:060][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.03.30-12.24.55:060][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.03.30-12.24.55:060][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.30-12.24.55:060][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.30-12.24.55:060][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.03.30-12.24.55:060][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.30-12.24.55:060][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.03.30-12.24.55:060][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.03.30-12.24.55:060][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.30-12.24.55:060][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.30-12.24.55:060][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.30-12.24.55:060][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:060][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.30-12.24.55:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.30-12.24.55:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.30-12.24.55:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.30-12.24.55:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.30-12.24.55:061][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.30-12.24.55:061][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.30-12.24.55:061][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.30-12.24.55:061][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.30-12.24.55:061][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.30-12.24.55:061][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.30-12.24.55:061][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.30-12.24.55:062][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.30-12.24.55:062][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.30-12.24.55:062][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.30-12.24.55:062][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.30-12.24.55:062][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.30-12.24.55:062][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.30-12.24.55:062][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.30-12.24.55:062][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.30-12.24.55:062][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.30-12.24.55:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.30-12.24.55:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.30-12.24.55:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.30-12.24.55:062][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.30-12.24.55:062][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.30-12.24.55:062][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.30-12.24.55:063][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.30-12.24.55:063][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.30-12.24.55:063][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.30-12.24.55:063][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:063][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.30-12.24.55:063][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.30-12.24.55:063][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.30-12.24.55:063][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.30-12.24.55:063][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.30-12.24.55:063][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.03.30-12.24.55:063][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.30-12.24.55:063][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.30-12.24.55:063][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.30-12.24.55:064][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:064][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.30-12.24.55:064][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.30-12.24.55:064][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.30-12.24.55:064][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.03.30-12.24.55:064][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.30-12.24.55:064][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.30-12.24.55:064][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.30-12.24.55:064][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.30-12.24.55:064][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.30-12.24.55:064][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.30-12.24.55:064][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.30-12.24.55:065][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.30-12.24.55:065][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.03.30-12.24.55:065][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.30-12.24.55:065][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.30-12.24.55:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.03.30-12.24.55:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.03.30-12.24.55:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.03.30-12.24.55:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.03.30-12.24.55:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.03.30-12.24.55:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.03.30-12.24.55:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.03.30-12.24.55:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.03.30-12.24.55:065][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.03.30-12.24.55:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.03.30-12.24.55:066][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.03.30-12.24.55:066][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:066][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.30-12.24.55:066][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.30-12.24.55:066][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.30-12.24.55:066][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.03.30-12.24.55:066][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.03.30-12.24.55:066][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.03.30-12.24.55:066][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.03.30-12.24.55:068][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.03.30-12.24.55:068][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.03.30-12.24.55:068][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Engine.ini]
-[2020.03.30-12.24.55:068][  0]LogInit: Computer: DESKTOP-MVUVBSF
-[2020.03.30-12.24.55:069][  0]LogInit: User: AforA
-[2020.03.30-12.24.55:069][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.03.30-12.24.55:069][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.03.30-12.24.55:069][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.03.30-12.24.55:069][  0]LogMemory: Platform Memory Stats for Windows
-[2020.03.30-12.24.55:069][  0]LogMemory: Process Physical Memory: 107.53 MB used, 107.53 MB peak
-[2020.03.30-12.24.55:069][  0]LogMemory: Process Virtual Memory: 104.45 MB used, 104.45 MB peak
-[2020.03.30-12.24.55:070][  0]LogMemory: Physical Memory: 10606.81 MB used,  5662.77 MB free, 16269.59 MB total
-[2020.03.30-12.24.55:070][  0]LogMemory: Virtual Memory: 5178.90 MB used,  134212552.00 MB free, 134217728.00 MB total
-[2020.03.30-12.24.55:078][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.03.30-12.24.55:144][  0]LogInit: Using OS detected language (sv-SE).
-[2020.03.30-12.24.55:144][  0]LogInit: Using OS detected locale (sv-SE).
-[2020.03.30-12.24.55:148][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
-[2020.03.30-12.24.55:943][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.03.30-12.24.55:943][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.03.30-12.24.56:377][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.03.30-12.24.56:377][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.03.30-12.24.56:377][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.03.30-12.24.56:377][  0]LogD3D11RHI: D3D11 adapters:
-[2020.03.30-12.24.56:488][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
-[2020.03.30-12.24.56:488][  0]LogD3D11RHI:       2007/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.03.30-12.24.56:505][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2020.03.30-12.24.56:505][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.03.30-12.24.56:511][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.03.30-12.24.56:511][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.03.30-12.24.56:511][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.03.30-12.24.56:557][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.03.30-12.24.56:558][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
-[2020.03.30-12.24.56:558][  0]LogWindows: EnumDisplayDevices:
-[2020.03.30-12.24.56:558][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
-[2020.03.30-12.24.56:559][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:1)
-[2020.03.30-12.24.56:560][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
-[2020.03.30-12.24.56:561][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
-[2020.03.30-12.24.56:562][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2020.03.30-12.24.56:563][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2020.03.30-12.24.56:564][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2020.03.30-12.24.56:564][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.03.30-12.24.56:565][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
-[2020.03.30-12.24.56:565][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
-[2020.03.30-12.24.56:565][  0]LogD3D11RHI:      Driver Date: 3-17-2020
-[2020.03.30-12.24.56:565][  0]LogRHI: Texture pool is 1404 MB (70% of 2007 MB)
-[2020.03.30-12.24.56:705][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
-[2020.03.30-12.24.56:705][  0]LogD3D11RHI: Async texture creation enabled
-[2020.03.30-12.24.56:776][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.03.30-12.24.57:730][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.03.30-12.24.57:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.03.30-12.24.57:864][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.03.30-12.24.57:935][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.03.30-12.24.57:935][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.03.30-12.24.57:968][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.03.30-12.24.57:998][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.03.30-12.24.58:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.03.30-12.24.58:061][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.03.30-12.24.58:082][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.03.30-12.24.58:102][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.03.30-12.24.58:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.03.30-12.24.58:182][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.03.30-12.24.58:223][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.03.30-12.24.58:223][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.03.30-12.24.58:251][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.03.30-12.24.58:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.03.30-12.24.58:299][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.03.30-12.24.58:323][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.03.30-12.24.58:323][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.03.30-12.24.58:331][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.03.30-12.24.58:389][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/AforA/Documents/Unreal Projects/DishGame/Intermediate/Shaders/WorkingDirectory/145896/).
-[2020.03.30-12.24.58:389][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/AforA/AppData/Local/Temp/UnrealShaderWorkingDir/39DA95D84B886296771D97935F29CCA8/'.
-[2020.03.30-12.24.58:390][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.03.30-12.24.58:390][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.03.30-12.24.58:390][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.03.30-12.25.00:945][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.03.30-12.25.01:092][  0]LogDerivedDataCache: Loaded boot cache 0.15s 81MB C:/Users/AforA/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.03.30-12.25.01:093][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/AforA/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.03.30-12.25.01:093][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/AforA/Documents/Unreal Projects/DishGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.03.30-12.25.01:093][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.03.30-12.25.01:093][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/AforA/Documents/Unreal Projects/DishGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.30-12.25.01:093][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.03.30-12.25.01:127][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.03.30-12.25.01:128][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.30-12.25.01:128][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.03.30-12.25.01:131][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AforA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.03.30-12.25.01:131][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.03.30-12.25.01:131][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.03.30-12.25.01:229][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.03.30-12.25.01:236][  0]LogSlate: Using FreeType 2.10.0
-[2020.03.30-12.25.01:237][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.03.30-12.25.01:403][  0]LogAssetRegistry: FAssetRegistry took 0.0071 seconds to start up
-[2020.03.30-12.25.02:528][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.30-12.25.03:300][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.03.30-12.25.03:300][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.03.30-12.25.03:300][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.03.30-12.25.03:300][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.03.30-12.25.03:300][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.03.30-12.25.03:411][  0]LogNetVersion: DishGame 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2217241199)
-[2020.03.30-12.25.06:727][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.115728 seconds
-[2020.03.30-12.25.06:747][  0]LogUObjectArray: 46752 objects as part of root set at end of initial load.
-[2020.03.30-12.25.06:747][  0]LogUObjectAllocator: 8137720 out of 0 bytes used by permanent object pool.
-[2020.03.30-12.25.06:747][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.03.30-12.25.07:916][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.03.30-12.25.08:046][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.03.30-12.25.08:167][  0]SourceControl: Source control is disabled
-[2020.03.30-12.25.08:167][  0]SourceControl: Source control is disabled
-[2020.03.30-12.25.08:169][  0]SourceControl: Source control is disabled
-[2020.03.30-12.25.08:171][  0]SourceControl: Source control is disabled
-[2020.03.30-12.25.08:173][  0]SourceControl: Source control is disabled
-[2020.03.30-12.25.08:379][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.03.30-12.25.08:401][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.03.30-12.25.08:401][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.03.30-12.25.08:668][  0]LogOcInput: OculusInput pre-init called
-[2020.03.30-12.25.10:337][  0]LogEngine: Initializing Engine...
-[2020.03.30-12.25.10:339][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.03.30-12.25.10:340][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.03.30-12.25.11:208][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.03.30-12.25.11:230][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.03.30-12.25.11:258][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.03.30-12.25.11:259][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.03.30-12.25.11:259][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.03.30-12.25.11:259][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.03.30-12.25.11:259][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.03.30-12.25.11:259][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.03.30-12.25.11:259][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.03.30-12.25.11:259][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.03.30-12.25.11:260][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.03.30-12.25.11:260][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.03.30-12.25.11:353][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.03.30-12.25.11:353][  0]LogAudioMixer: Display: Name: Högtalare (2- SteelSeries Siberia 350)
-[2020.03.30-12.25.11:353][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.03.30-12.25.11:353][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.03.30-12.25.11:353][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.03.30-12.25.11:353][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.03.30-12.25.11:353][  0]LogAudioMixer: Display: Channel Order:
-[2020.03.30-12.25.11:353][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.03.30-12.25.11:353][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.03.30-12.25.11:391][  0]LogAudioMixer: Display: Using Audio Device Högtalare (2- SteelSeries Siberia 350)
-[2020.03.30-12.25.11:401][  0]LogInit: FAudioDevice initialized.
-[2020.03.30-12.25.11:401][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.03.30-12.25.11:541][  0]LogDerivedDataCache: Saved boot cache 0.14s 81MB C:/Users/AforA/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.03.30-12.25.11:551][  0]LogInit: Texture streaming: Enabled
-[2020.03.30-12.25.11:566][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.03.30-12.25.11:566][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.03.30-12.25.11:569][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.03.30-12.25.11:897][  0]LogLauncherPlatform: Warning: FPlatformProcess::LaunchURL had an error: Failed launching URL
-[2020.03.30-12.25.11:914][  0]LogInit: Transaction tracking system initialized
-[2020.03.30-12.25.11:933][  0]BlueprintLog: New page: Editor Load
-[2020.03.30-12.25.12:081][  0]LocalizationService: Localization service is disabled
-[2020.03.30-12.25.13:025][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AforA/Documents/Unreal Projects/DishGame/Content/' took 0.01s
-[2020.03.30-12.25.13:025][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.03.30-12.25.13:025][  0]LogCook: Display: Mobile HDR setting 1
-[2020.03.30-12.25.14:783][  0]SourceControl: Source control is disabled
-[2020.03.30-12.25.14:784][  0]Cmd: MAP LOAD FILE="../../../../../../Users/AforA/Documents/Unreal Projects/DishGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.03.30-12.25.14:785][  0]LightingResults: New page: Lighting Build
-[2020.03.30-12.25.14:786][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.03.30-12.25.14:786][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.03.30-12.25.14:786][  0]MapCheck: New page: Map Check
-[2020.03.30-12.25.14:786][  0]LightingResults: New page: Lighting Build
-[2020.03.30-12.25.14:848][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
-[2020.03.30-12.25.16:310][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.03.30-12.25.16:558][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.03.30-12.25.16:646][  0]LogUObjectHash: Compacting FUObjectHashTables data took  11.91ms
-[2020.03.30-12.25.16:647][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.03.30-12.25.16:648][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,636ms to complete.
-[2020.03.30-12.25.16:649][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.865
-[2020.03.30-12.25.16:937][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.30-12.25.16:957][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.30-12.25.16:979][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.30-12.25.17:001][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.30-12.25.17:015][  0]LogCollectionManager: Loaded 0 collections in 0.006074 seconds
-[2020.03.30-12.25.17:065][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Collections/' took 0.00s
-[2020.03.30-12.25.17:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AforA/Documents/Unreal Projects/DishGame/Content/Developers/AforA/Collections/' took 0.00s
-[2020.03.30-12.25.17:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AforA/Documents/Unreal Projects/DishGame/Content/Collections/' took 0.00s
-[2020.03.30-12.25.17:066][  0]LogContentBrowser: Native class hierarchy populated in 0.0349 seconds. Added 3015 classes and 717 folders.
-[2020.03.30-12.25.17:072][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.03.30-12.25.17:231][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2020.03.30-12.25.17:240][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 2 classes and 3 folders.
-[2020.03.30-12.25.17:533][  0]LogSlate: Took 0.000422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.03.30-12.25.17:538][  0]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.03.30-12.25.17:549][  0]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.03.30-12.25.17:849][  0]LogRenderer: Reallocating scene render targets to support 1212x624 Format 10 NumSamples 1 (Frame:1).
-[2020.03.30-12.25.18:642][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.03.30-12.25.18:643][  0]LogLoad: (Engine Initialization) Total time: 30.78 seconds
-[2020.03.30-12.25.18:643][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.03.30-12.25.18:738][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.03.30-12.25.18:786][  0]LogSlate: Took 0.000391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.30-12.25.19:224][  2]LogAssetRegistry: Asset discovery search completed in 17.8221 seconds
-[2020.03.30-12.25.19:240][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
-[2020.03.30-12.25.21:058][133]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
-[2020.03.30-12.25.23:349][183]LogSlate: Took 0.000376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.03.30-12.26.02:996][127]LogEditorViewport: Clicking on Component (LMB): CameraComponent (FollowCamera)
-[2020.03.30-12.26.22:202][ 96]Cmd: TRANSACTION UNDO
-[2020.03.30-12.26.22:202][ 96]LogEditorTransaction: Undo Clicking on Component (tree view)
-[2020.03.30-12.26.22:333][ 96]LogSlate: Took 0.000569 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.30-12.26.23:133][125]Cmd: TRANSACTION UNDO
-[2020.03.30-12.26.23:133][125]LogEditorTransaction: Undo Clicking on Components
-[2020.03.30-12.26.23:721][154]Cmd: TRANSACTION UNDO
-[2020.03.30-12.26.23:721][154]LogEditorTransaction: Undo Modify Component(s)
-[2020.03.30-12.26.48:949][309]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2020.03.30-12.26.49:572][309]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 121 classes and 0 folders.
-[2020.03.30-12.26.52:348][309]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.03.30-12.26.54:665][382]LogSlate: Window 'ThirdPersonCharacter' being destroyed
-[2020.03.30-12.27.46:231][995]LogRenderer: Reallocating scene render targets to support 1212x628 Format 10 NumSamples 1 (Frame:1).
-[2020.03.30-12.28.21:879][ 24]LogEditorTransaction: Undo Modify Component(s)
-[2020.03.30-12.28.23:033][ 93]LogEditorTransaction: Undo Modify Component(s)
-[2020.03.30-12.28.58:821][913]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2020.03.30-12.28.58:821][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.30-12.47.01:990][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.30-12.47.01:990][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.30-12.47.01:990][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Engine.ini]
+[2020.03.30-12.47.01:990][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.30-12.47.01:990][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Engine.ini]
+[2020.03.30-12.47.01:990][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Engine.ini]
+[2020.03.30-12.47.01:990][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.30-12.47.01:990][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Engine.ini]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.30-12.47.01:991][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.30-12.47.01:992][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Engine.ini]
+[2020.03.30-12.47.01:992][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Engine.ini]
+[2020.03.30-12.47.02:014][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:015][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.30-12.47.02:015][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.30-12.47.02:015][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:015][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.30-12.47.02:015][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:015][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.30-12.47.02:015][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.30-12.47.02:015][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.30-12.47.02:015][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.30-12.47.02:015][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.30-12.47.02:015][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.30-12.47.02:015][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.30-12.47.02:015][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.30-12.47.02:015][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.30-12.47.02:016][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.30-12.47.02:017][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.30-12.47.02:018][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:018][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.30-12.47.02:018][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.30-12.47.02:018][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.30-12.47.02:018][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.30-12.47.02:018][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.30-12.47.02:018][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.30-12.47.02:018][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.30-12.47.02:018][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.30-12.47.02:018][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.30-12.47.02:018][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:018][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.30-12.47.02:018][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.30-12.47.02:018][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.30-12.47.02:018][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.30-12.47.02:018][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.30-12.47.02:019][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.30-12.47.02:020][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.30-12.47.02:020][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.30-12.47.02:020][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.30-12.47.02:020][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.30-12.47.02:020][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.30-12.47.02:020][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:020][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.30-12.47.02:020][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.30-12.47.02:020][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:020][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.30-12.47.02:020][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.30-12.47.02:020][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.30-12.47.02:020][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.30-12.47.02:020][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.30-12.47.02:030][  0]LogHAL: Display: Platform has ~ 16 GB [17059897344 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.30-12.47.02:030][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.30-12.47.02:030][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:030][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.30-12.47.02:031][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.30-12.47.02:032][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.30-12.47.02:033][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.30-12.47.02:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.30-12.47.02:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.30-12.47.02:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.30-12.47.02:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.30-12.47.02:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.30-12.47.02:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.30-12.47.02:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.30-12.47.02:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.30-12.47.02:034][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.30-12.47.02:034][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:034][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.30-12.47.02:034][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.30-12.47.02:034][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.30-12.47.02:034][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.30-12.47.02:034][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.30-12.47.02:034][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.30-12.47.02:034][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.30-12.47.02:035][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.30-12.47.02:035][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.30-12.47.02:035][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Config/Windows/Engine.ini]
+[2020.03.30-12.47.02:035][  0]LogInit: Computer: DESKTOP-MVUVBSF
+[2020.03.30-12.47.02:035][  0]LogInit: User: AforA
+[2020.03.30-12.47.02:035][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.03.30-12.47.02:035][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.30-12.47.02:036][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.03.30-12.47.02:036][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.30-12.47.02:036][  0]LogMemory: Process Physical Memory: 107.52 MB used, 107.53 MB peak
+[2020.03.30-12.47.02:036][  0]LogMemory: Process Virtual Memory: 104.20 MB used, 104.20 MB peak
+[2020.03.30-12.47.02:036][  0]LogMemory: Physical Memory: 9842.96 MB used,  6426.62 MB free, 16269.59 MB total
+[2020.03.30-12.47.02:036][  0]LogMemory: Virtual Memory: 5178.90 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2020.03.30-12.47.02:041][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.03.30-12.47.02:087][  0]LogInit: Using OS detected language (sv-SE).
+[2020.03.30-12.47.02:087][  0]LogInit: Using OS detected locale (sv-SE).
+[2020.03.30-12.47.02:089][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
+[2020.03.30-12.47.02:653][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.30-12.47.02:653][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.30-12.47.03:067][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.30-12.47.03:067][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.03.30-12.47.03:067][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.03.30-12.47.03:067][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.30-12.47.03:212][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2020.03.30-12.47.03:212][  0]LogD3D11RHI:       2007/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.03.30-12.47.03:228][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2020.03.30-12.47.03:228][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.03.30-12.47.03:234][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.30-12.47.03:234][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.30-12.47.03:234][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.30-12.47.03:278][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.30-12.47.03:278][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.30-12.47.03:278][  0]LogWindows: EnumDisplayDevices:
+[2020.03.30-12.47.03:279][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2020.03.30-12.47.03:279][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:1)
+[2020.03.30-12.47.03:280][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2020.03.30-12.47.03:281][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2020.03.30-12.47.03:282][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.03.30-12.47.03:283][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.03.30-12.47.03:283][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2020.03.30-12.47.03:284][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.03.30-12.47.03:284][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2020.03.30-12.47.03:284][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.03.30-12.47.03:284][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.03.30-12.47.03:284][  0]LogRHI: Texture pool is 1404 MB (70% of 2007 MB)
+[2020.03.30-12.47.03:391][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.03.30-12.47.03:391][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.30-12.47.03:435][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.30-12.47.04:304][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.03.30-12.47.04:401][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.03.30-12.47.04:401][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.03.30-12.47.04:401][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.03.30-12.47.04:401][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.03.30-12.47.04:401][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.03.30-12.47.04:401][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.03.30-12.47.04:401][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.03.30-12.47.04:401][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.03.30-12.47.04:401][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.03.30-12.47.04:401][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.30-12.47.04:402][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.03.30-12.47.04:402][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.03.30-12.47.04:402][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.30-12.47.04:402][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.30-12.47.04:402][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.30-12.47.04:402][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.30-12.47.04:402][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.03.30-12.47.04:402][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.03.30-12.47.04:459][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.03.30-12.47.04:459][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.03.30-12.47.04:481][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.30-12.47.04:500][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.03.30-12.47.04:523][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.03.30-12.47.04:543][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.03.30-12.47.04:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.03.30-12.47.04:583][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.03.30-12.47.04:656][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.03.30-12.47.04:656][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.03.30-12.47.04:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.03.30-12.47.04:694][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.03.30-12.47.04:710][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.30-12.47.04:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.03.30-12.47.04:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.03.30-12.47.04:764][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.03.30-12.47.04:764][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.30-12.47.04:771][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.30-12.47.04:830][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/AforA/Documents/Unreal Projects/DishGame/Intermediate/Shaders/WorkingDirectory/146040/).
+[2020.03.30-12.47.04:831][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/AforA/AppData/Local/Temp/UnrealShaderWorkingDir/9361127A4A086F7F491CC28C292F94EC/'.
+[2020.03.30-12.47.04:832][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.30-12.47.04:833][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.30-12.47.04:833][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.30-12.47.06:927][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.30-12.47.07:041][  0]LogDerivedDataCache: Loaded boot cache 0.11s 81MB C:/Users/AforA/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.30-12.47.07:041][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/AforA/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.03.30-12.47.07:041][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/AforA/Documents/Unreal Projects/DishGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.30-12.47.07:041][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.30-12.47.07:042][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/AforA/Documents/Unreal Projects/DishGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.30-12.47.07:042][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.30-12.47.07:067][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.30-12.47.07:067][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.30-12.47.07:067][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.30-12.47.07:069][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AforA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.30-12.47.07:069][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.30-12.47.07:069][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.30-12.47.07:139][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.30-12.47.07:147][  0]LogSlate: Using FreeType 2.10.0
+[2020.03.30-12.47.07:148][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.30-12.47.07:281][  0]LogAssetRegistry: FAssetRegistry took 0.0051 seconds to start up
+[2020.03.30-12.47.08:003][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.30-12.47.08:588][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.30-12.47.08:588][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.30-12.47.08:588][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.30-12.47.08:588][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.30-12.47.08:588][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.30-12.47.08:628][  0]LogNetVersion: DishGame 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2217241199)
+[2020.03.30-12.47.11:933][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.098502 seconds
+[2020.03.30-12.47.11:953][  0]LogUObjectArray: 46752 objects as part of root set at end of initial load.
+[2020.03.30-12.47.11:953][  0]LogUObjectAllocator: 8137720 out of 0 bytes used by permanent object pool.
+[2020.03.30-12.47.11:953][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.30-12.47.12:946][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.30-12.47.12:951][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.30-12.47.13:068][  0]SourceControl: Source control is disabled
+[2020.03.30-12.47.13:069][  0]SourceControl: Source control is disabled
+[2020.03.30-12.47.13:072][  0]SourceControl: Source control is disabled
+[2020.03.30-12.47.13:074][  0]SourceControl: Source control is disabled
+[2020.03.30-12.47.13:076][  0]SourceControl: Source control is disabled
+[2020.03.30-12.47.13:294][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.30-12.47.13:317][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.30-12.47.13:317][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.30-12.47.13:505][  0]LogOcInput: OculusInput pre-init called
+[2020.03.30-12.47.15:489][  0]LogEngine: Initializing Engine...
+[2020.03.30-12.47.15:491][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.30-12.47.15:493][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.30-12.47.16:550][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.30-12.47.16:561][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.30-12.47.16:600][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.30-12.47.16:600][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.30-12.47.16:600][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.30-12.47.16:600][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.30-12.47.16:600][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.30-12.47.16:600][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.30-12.47.16:600][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.30-12.47.16:600][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.30-12.47.16:601][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.30-12.47.16:601][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.30-12.47.16:681][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.30-12.47.16:681][  0]LogAudioMixer: Display: Name: Högtalare (2- SteelSeries Siberia 350)
+[2020.03.30-12.47.16:681][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.03.30-12.47.16:681][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.30-12.47.16:681][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.30-12.47.16:681][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.30-12.47.16:681][  0]LogAudioMixer: Display: Channel Order:
+[2020.03.30-12.47.16:681][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.30-12.47.16:681][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.03.30-12.47.16:728][  0]LogAudioMixer: Display: Using Audio Device Högtalare (2- SteelSeries Siberia 350)
+[2020.03.30-12.47.16:732][  0]LogInit: FAudioDevice initialized.
+[2020.03.30-12.47.16:732][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.30-12.47.16:939][  0]LogDerivedDataCache: Saved boot cache 0.21s 81MB C:/Users/AforA/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.30-12.47.16:948][  0]LogInit: Texture streaming: Enabled
+[2020.03.30-12.47.16:961][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.30-12.47.16:961][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.03.30-12.47.16:965][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.03.30-12.47.17:273][  0]LogLauncherPlatform: Warning: FPlatformProcess::LaunchURL had an error: Failed launching URL
+[2020.03.30-12.47.17:365][  0]LogInit: Transaction tracking system initialized
+[2020.03.30-12.47.17:391][  0]BlueprintLog: New page: Editor Load
+[2020.03.30-12.47.17:453][  0]LocalizationService: Localization service is disabled
+[2020.03.30-12.47.18:393][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AforA/Documents/Unreal Projects/DishGame/Content/' took 0.01s
+[2020.03.30-12.47.18:394][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.30-12.47.18:394][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.30-12.47.20:045][  0]SourceControl: Source control is disabled
+[2020.03.30-12.47.20:045][  0]Cmd: MAP LOAD FILE="../../../../../../Users/AforA/Documents/Unreal Projects/DishGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.30-12.47.20:046][  0]LightingResults: New page: Lighting Build
+[2020.03.30-12.47.20:048][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.03.30-12.47.20:048][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.30-12.47.20:048][  0]MapCheck: New page: Map Check
+[2020.03.30-12.47.20:048][  0]LightingResults: New page: Lighting Build
+[2020.03.30-12.47.20:119][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.80ms
+[2020.03.30-12.47.20:933][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.30-12.47.20:952][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.30-12.47.21:039][  0]LogUObjectHash: Compacting FUObjectHashTables data took  10.45ms
+[2020.03.30-12.47.21:040][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.30-12.47.21:040][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,414ms to complete.
+[2020.03.30-12.47.21:041][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.995
+[2020.03.30-12.47.21:277][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.30-12.47.21:293][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.30-12.47.21:312][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.30-12.47.21:332][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.30-12.47.21:343][  0]LogCollectionManager: Loaded 0 collections in 0.004135 seconds
+[2020.03.30-12.47.21:374][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AforA/Documents/Unreal Projects/DishGame/Saved/Collections/' took 0.00s
+[2020.03.30-12.47.21:374][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AforA/Documents/Unreal Projects/DishGame/Content/Developers/AforA/Collections/' took 0.00s
+[2020.03.30-12.47.21:375][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AforA/Documents/Unreal Projects/DishGame/Content/Collections/' took 0.00s
+[2020.03.30-12.47.21:375][  0]LogContentBrowser: Native class hierarchy populated in 0.0221 seconds. Added 3015 classes and 717 folders.
+[2020.03.30-12.47.21:381][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.03.30-12.47.21:511][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.03.30-12.47.21:517][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2020.03.30-12.47.21:765][  0]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.30-12.47.21:769][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.30-12.47.21:779][  0]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.30-12.47.22:019][  0]LogRenderer: Reallocating scene render targets to support 1212x624 Format 10 NumSamples 1 (Frame:1).
+[2020.03.30-12.47.22:327][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.03.30-12.47.22:327][  0]LogLoad: (Engine Initialization) Total time: 25.68 seconds
+[2020.03.30-12.47.22:327][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.30-12.47.22:403][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.30-12.47.22:440][  0]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.30-12.47.22:526][  2]LogAssetRegistry: Asset discovery search completed in 15.2463 seconds
+[2020.03.30-12.47.22:535][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
