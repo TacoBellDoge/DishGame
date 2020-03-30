@@ -1,0 +1,16 @@
+# Epic's P4IGNORE.# Mac ignores are not currently implemented. You need to use local filesystem syntax.
+# P4IGNORE doesn't work like GITIGNORE:# http://stackoverflow.com/questions/18240084/how-does-perforce-ignore-file-syntax-differ-from-gitignore-syntax
+################################################################################ Ignore root files. We do check in some sln files, so don't ignore them all.
+UE4.sln
+# Ignore all Visual Studio temp files.
+*.suo
+*.opensdf
+*.sdf
+# Ignore UE4 local folders
+.egstore
+DerivedDataCache\*
+FeaturePacks\*
+Intermediate\*
+Saved\*
+# Ignore UBT configuration.xml
+Engine\Programs\UnrealBuildTool\*
